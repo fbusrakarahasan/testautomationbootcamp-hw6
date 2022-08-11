@@ -33,10 +33,10 @@ public List<String> flightTicketFromListStream(String kw) throws UnirestExceptio
     ObjectMapper mapper = new ObjectMapper();
     Root[] flightList = mapper.readValue(response.getBody().toString(), Root[].class);
 
-    return Arrays.stream(flightList).map(e -> e.getCity_code() + "," +
-        e.getCountry_name() + ":" +
-        e.getAirport() + ":" +
-        e.getCity_name()).toList();
+    return Arrays.stream(flightList).map(e -> e.getCity_name() + ", " +
+                e.getCountry_name() + "\n" +
+                e.getAirport() + "\n" +
+                e.getCity_code()).toList();
 }
 ```
 
@@ -69,9 +69,9 @@ public List<String> flightTiketFromListByRest(String kw) throws JsonProcessingEx
     ObjectMapper mapper = new ObjectMapper();
     Root[] flightList = mapper.readValue(response.asString(), Root[].class);
 
-    return Arrays.stream(flightList).map(e -> e.getCity_code() + "," +
-        e.getCountry_name() + ":" +
-        e.getAirport() + ":" +
-        e.getCity_name()).toList();
+    return Arrays.stream(flightList).map(e -> e.getCity_name() + ", " +
+                e.getCountry_name() + "\n" +
+                e.getAirport() + "\n" +
+                e.getCity_code()).toList();
 }
 ``` 
