@@ -1,4 +1,4 @@
-<h1 align="center"> :bookmark_tabs: Enuygun - Test Automation Bootcamp - HW6 </h1>
+<h1 align="center"> :bookmark_tabs: Enuygun - Test Automation Bootcamp - HW6_1 </h1>
  
 
 > ##  ```Stream map, stream filter foreach vb. çalışılacak.  ```
