@@ -3,8 +3,12 @@
 
 > ##  ```Stream map, stream filter foreach vb. çalışılacak.  ```
 
-**Stream Api nedir? ?**
 
+
+ ![0_QCmZZpGs_rcF5y2-](https://user-images.githubusercontent.com/102550569/184213834-657b8456-a054-4aad-96a8-335c1b8881ab.jpg)
+ 
+### **Stream Api nedir? ?**
+---
 Hepimiz bir şekilde veri setleri ile işlemler yapıyoruz. En basitinden küçükten büyüğe veya büyükten küçüğe sıralamak bir veri seti işlemi. Veri setleri deyince aklımıza ilk gelen veri yapıları Listeler veya Diziler olabilir. Java 8 ile birlikte gelen Stream Api desteği, veriler üzerinde yapacağımız işlemleri temiz ve anlaşılır bir şekilde ifade edebilmemize olanak sağlıyor.
 
 
