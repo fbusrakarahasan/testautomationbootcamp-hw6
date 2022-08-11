@@ -9,13 +9,14 @@ Hepimiz bir şekilde veri setleri ile işlemler yapıyoruz. En basitinden küç�
 
 
 Stream Api İşlemleri
+
 1. filter(): Filtreleme işlemi yapmamızı sağlar, verilen kriterlere göre arama yapar. Bu filtreleme birden fazla şekilde de yapabilir. startsWith baş harfine göre arama yapar.
 
 
 2. sorted(): Sıralama yapmamızı sağlar. Yazı ise harf sırası ( sözlük mantığı şeklinde ) sayı ise küçükten büyüğe.
 
 
-3. reduce(): Yapılan işlemi teker teker basamaklarını göstererek işlemi yapar. Bir veri setinde sırayla işlem yapmak istieniyorsa ve bir önceki yapılan işlem de dahil edilmek istieniyorsa reduce metodu kullanılabilir. 
+3. reduce(): Yapılan işlemi teker teker basamaklarını göstererek işlemi yapar. Bir veri setinde sırayla işlem yapmak istieniyorsa ve bir önceki yapılan işlem de dahil edilmek isteniyorsa reduce metodu kullanılabilir. 
 
 
 4. map(): Stream içerisindeki elemanları başka tiplere dönüştürmek veya üzerlerinde işlem yapmak için Map kullanılmaktadır.
@@ -23,12 +24,11 @@ Stream Api İşlemleri
 
 5. Match: Match operasyonu bir akışın belirli kriterleri sağlayıp sağlamadığını ölçmek için kullanılır. Map den farkı her iterasyonu tek tek değerlendirip sonucu yansıtmaz bunun yerine tüm koleksiyonu değerlendirerek sonucu yansıtmasıdır. Match operasyonunun 3 çeşit kullanımı bulunmaktadır.
 
-5.1 noneMatch: Belirtilen kriter listede hiçbir elemanda bulunmuyor ise true döndürür.
+   - noneMatch: Belirtilen kriter listede hiçbir elemanda bulunmuyor ise true döndürür.
 
-5.2 allMatch: Belirtilen kriter listede tüm elemanlarda bulunuyor ise true döndürür.
+   - allMatch: Belirtilen kriter listede tüm elemanlarda bulunuyor ise true döndürür.
 
-5.3 anyMatch: Belirtilen kriter listede herhangi bir elemanlarda bulunuyor ise true döndürür.
-
+   - anyMatch: Belirtilen kriter listede herhangi bir elemanlarda bulunuyor ise true döndürür. 
 
 6. distinct(): Listede aynı değere sahip olanları tek bir değere indirger.
 
